@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /mongo-db-playground
+  port: 8081    
+
+spring:
+  data:
+    mongodb:
+      database: playgronud_db
+      port: 27017
+    

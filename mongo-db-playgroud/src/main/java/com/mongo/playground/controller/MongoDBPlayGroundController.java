@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mongo.playground.Model.Tutorial;
+import com.mongo.playground.model.Tutorial;
 import com.mongo.playground.repository.TutorialRepository;
 
 import io.swagger.annotations.Api;

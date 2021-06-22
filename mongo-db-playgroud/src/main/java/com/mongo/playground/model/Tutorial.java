@@ -1,4 +1,4 @@
-package com.mongo.playground.Model;
+package com.mongo.playground.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

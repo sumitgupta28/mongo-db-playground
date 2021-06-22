@@ -19,13 +19,13 @@ public class Person {
     private String id;
     private String firstName;
     private String secondName;
-    private LocalDateTime dateOfBirth;
+    private String dateOfBirth;
     private Address address;
     private String profession;
     private int salary;
     private List<Hobby> hobbies;
 
-    public Person(final String firstName, final String secondName, final LocalDateTime dateOfBirth,
+    public Person(final String firstName, final String secondName, final String dateOfBirth,
                   final Address address, final String profession, final int salary, final List<Hobby> hobbies) {
         this.firstName = firstName;
         this.secondName = secondName;
